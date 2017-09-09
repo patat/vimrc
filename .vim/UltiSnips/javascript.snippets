@@ -1,0 +1,54 @@
+snippet str
+'use strict';
+$0
+endsnippet
+
+snippet af
+( $1 ) => {
+    $2
+}$0
+endsnippet
+
+snippet afs
+($1) => $2$0
+endsnippet
+
+snippet req
+const $1 = require( '$1$2' );
+$0
+endsnippet
+
+snippet rq
+const { $1 } = require( '$2' );
+$0
+endsnippet
+
+snippet rcc
+import React, { Component } from 'react';
+
+class $1 extends Component {
+    render() {
+	return (
+	    <div>
+	    $1$2
+	    </div>
+	);
+    }
+}
+
+export default $1;
+endsnippet
+
+snippet rfc
+import React from 'react';
+
+const $1 = () => {
+    return (
+	<div>
+	$1$2
+	</div>
+    );
+};
+
+export default $1;
+endsnippet
